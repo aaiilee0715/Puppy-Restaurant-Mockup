@@ -1,69 +1,39 @@
 /*Font*/
+
 @font-face {
-    font-family: 'FugazOne';
-    src: url('FugazOne-Regular.eot');
-    src: url('FugazOne-Regular.eot?#iefix') format('embedded-opentype'),
-        url('FugazOne-Regular.woff2') format('woff2'),
-        url('FugazOne-Regular.woff') format('woff'),
-        url('FugazOne-Regular.ttf') format('truetype'),
-        url('FugazOne-Regular.svg#FugazOne-Regular') format('svg');
-    font-weight: normal;
+    font-family: 'fugazOne';
+    src: url(../font/FugazOne-Regular.ttf);
     font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'MontaukItalic';
-    src: url('MontaukItalic.eot');
-    src: url('MontaukItalic.eot?#iefix') format('embedded-opentype'),
-        url('MontaukItalic.woff2') format('woff2'),
-        url('MontaukItalic.woff') format('woff'),
-        url('MontaukItalic.ttf') format('truetype'),
-        url('MontaukItalic.svg#MontaukItalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+    font-weight: 600;
 }
 
 @font-face {
-    font-family: 'MontaukBold';
-    src: url('MontaukBold.eot');
-    src: url('MontaukBold.eot?#iefix') format('embedded-opentype'),
-        url('MontaukBold.woff2') format('woff2'),
-        url('MontaukBold.woff') format('woff'),
-        url('MontaukBold.ttf') format('truetype'),
-        url('MontaukBold.svg#MontaukBold') format('svg');
+    font-family: 'montaukBold';
+    src: url(../font/MontaukBold.ttf);
+    font-style: normal;
     font-weight: bold;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'MontaukLight';
-    src: url('MontaukLight.eot');
-    src: url('MontaukLight.eot?#iefix') format('embedded-opentype'),
-        url('MontaukLight.woff2') format('woff2'),
-        url('MontaukLight.woff') format('woff'),
-        url('MontaukLight.ttf') format('truetype'),
-        url('MontaukLight.svg#MontaukLight') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MontaukRegular';
-    src: url('MontaukRegular.eot');
-    src: url('MontaukRegular.eot?#iefix') format('embedded-opentype'),
-        url('MontaukRegular.woff2') format('woff2'),
-        url('MontaukRegular.woff') format('woff'),
-        url('MontaukRegular.ttf') format('truetype'),
-        url('MontaukRegular.svg#MontaukRegular') format('svg');
+    font-family: 'montaukItalic';
+    src: url(../font/MontaukItalic.ttf);
+    font-style: italic;
     font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
+@font-face {
+    font-family: 'montaukLight';
+    src: url(../font/MontaukLight.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
 
+@font-face {
+    font-family: 'montaukRegular';
+    src: url(../font/MontaukRegular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
 /*Header and Logo*/
 
@@ -72,6 +42,7 @@ body, .navbar {
 }
 
 .navText {
+    font-family: fugazOne ;
     font-size: 20px;
     list-style: none;
     color: #5F002B;
@@ -87,28 +58,32 @@ body, .navbar {
     max-width: 100%;
 }
 
-.grillStory{
+.grillStory, .ourTeam, .card-title {
     color: #5F002B;
     font-weight: bold;
-    font-family: 'FugazOne';
-}
-.grillStoryText {
-    color: #5F002B;
-    font-family: 'MontaukRegular';
-    font-size: 20px;
-    
-    
-    
+    font-family: fugazOne;
 }
 
-.story{
+.grillStoryText, .card-text {
+    color: #5F002B;
+    font-family: montaukRegular;
+    font-size: 20px;
+}
+
+.story {
     background-color: white;
 }
 
-
 /*Our Team*/
-.ourTeam{
+
+.ourTeam {
     background-color: white;
     color: #5F002B;
     font-size: 30px;
+}
+
+/*Footer*/
+.footer{
+    font-family: montaukRegular;
+    color: #5F002B;
 }
