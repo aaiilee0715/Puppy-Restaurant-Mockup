@@ -42,7 +42,7 @@ body, .navbar {
 }
 
 .navText {
-    font-family: fugazOne ;
+    font-family: fugazOne;
     font-size: 20px;
     list-style: none;
     color: #5F002B;
@@ -83,15 +83,33 @@ body, .navbar {
 }
 
 /*Footer*/
+
 .footer {
-    padding-left: 10%;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding-left: 5%;
     
 }
+
 .footerText, .logoText {
-    font-family:montaukRegular;
+    font-family: montaukRegular;
     color: #5F002B;
     font-size: 20px;
 }
 
+.logo-container {
+    width: 35%;
+    display: block;
+    height: auto;
+}
 
- 
+.logo-container img{
+    width: 150px;
+    height: auto;
+}
+/*Our Catering Service*/
+
+.cateringService {
+    background-color: white;
+}
