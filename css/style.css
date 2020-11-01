@@ -83,7 +83,15 @@ body, .navbar {
 }
 
 /*Footer*/
-.footer{
-    font-family: montaukRegular;
-    color: #5F002B;
+.footer {
+    padding-left: 10%;
+    
 }
+.footerText, .logoText {
+    font-family:montaukRegular;
+    color: #5F002B;
+    font-size: 20px;
+}
+
+
+ 
