@@ -62,7 +62,16 @@ body, .navbar {
     color: #5F002B;
     font-weight: bold;
     font-family: fugazOne;
+    font-size: smaller;
    
+}
+
+.titleAbout{
+    color: #5F002B;
+    font-weight: bold;
+    font-family: fugazOne;
+    font-size: xx-large;
+    margin-bottom: -2px;
 }
 
 .grillStoryText, .card-text {
