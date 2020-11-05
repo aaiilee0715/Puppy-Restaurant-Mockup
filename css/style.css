@@ -62,12 +62,19 @@ body, .navbar {
     color: #5F002B;
     font-weight: bold;
     font-family: fugazOne;
+   
 }
 
 .grillStoryText, .card-text {
     color: #5F002B;
     font-family: montaukRegular;
-    font-size: 20px;
+    font-size: 14px;
+    
+}
+.height100{
+    height: 100%;
+    /* width: 100%; */
+    object-fit: cover;
 }
 
 .story {
@@ -111,5 +118,5 @@ body, .navbar {
 /*Our Catering Service*/
 
 .cateringService {
-    background-color: white;
+    background-color: white;  
 }
