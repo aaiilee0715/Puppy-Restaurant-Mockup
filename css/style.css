@@ -50,7 +50,7 @@ body, .navbar {
 
 /*About Me*/
 
-.container {
+.containerFlex{
     display: flex;
 }
 
@@ -91,13 +91,13 @@ body, .navbar {
 
 /*Footer*/
 
-.footer {
+/* .footer {
     width: 100vw;
     display: block;
     overflow: hidden;
     padding-left: 5%;
     
-}
+} */
 
 .footerText, .logoText {
     font-family: montaukRegular;
@@ -119,4 +119,152 @@ body, .navbar {
 
 .cateringService {
     background-color: white;  
+}
+
+
+/* ==========================================Victor bottom css============================================================================= */
+
+#colorNav{
+    color:rgba(95, 0, 43, 1);
+    font-family: BoldMon;
+    font-size: 24px;
+}
+.title{
+    font-family: BoldMon;
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+#footerStyle{
+    font-family: RegularMOn;
+    color:rgba(95, 0, 43, 1);
+}
+
+
+#image{
+    border: 5px solid white;
+
+  
+
+}
+.colImage{
+    margin-bottom: 10px;
+    
+}
+/*===============================================================================================================================================*/
+.card{
+    padding: 0;
+
+
+}
+
+.mainContainer{
+    padding:0;
+}
+.cardPadding{
+    padding:0;
+}
+
+.largeText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+}
+
+.smallText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+    font-size: small;
+}
+
+hr{
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(95, 0, 43, 1);
+    height: 2px;
+}
+
+.margin1{
+    margin-bottom: -12px;
+}
+.margin2{
+    margin-bottom: -20px;
+}
+.margin3{
+    margin-top:-22px;
+}#colorNav{
+    color:rgba(95, 0, 43, 1);
+    font-family: BoldMon;
+    font-size: 24px;
+}
+.title{
+    font-family: BoldMon;
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+#footerStyle{
+    font-family: RegularMOn;
+    color:rgba(95, 0, 43, 1);
+}
+
+
+#image{
+    border: 5px solid white;
+
+  
+
+}
+.colImage{
+    margin-bottom: 10px;
+    
+}
+/*===============================================================================================================================================*/
+.card{
+    padding: 0;
+
+
+}
+
+.mainContainer{
+    padding:0;
+}
+.cardPadding{
+    padding:0;
+}
+
+.largeText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+
+}
+
+.smallText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+    font-size: small;
+}
+
+hr{
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(95, 0, 43, 1);
+    height: 2px;
+}
+
+.margin1{
+    margin-bottom: -12px;
+}
+.margin2{
+    margin-bottom: -20px;
+}
+.margin3{
+    margin-top:-22px;
+}
+.footerPad{
+    padding:0;
+    margin: 0;
 }
