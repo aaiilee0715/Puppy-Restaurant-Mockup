@@ -327,3 +327,22 @@ hr{
 .paddingTop{
     padding-top: 5%;
 }
+.font1{
+    font-family: Mont;
+    font-size: 18px;
+}
+
+.font2{
+    font-family: Mont;
+    color:#5F002B;
+}
+
+.regularFont{
+    font-family: Regular;
+    font-size: 19px;
+    color:#5F002B;
+}
+@font-face{
+    src: url(/font/FugazOne-Regular.ttf);
+    font-family: Mont;
+}
