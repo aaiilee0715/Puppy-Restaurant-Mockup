@@ -70,14 +70,14 @@ body, .navbar {
     color: #5F002B;
     font-weight: bold;
     font-family: fugazOne;
-    font-size: xx-large;
+    font-size: large;
     margin-bottom: -2px;
 }
 
 .grillStoryText, .card-text {
     color: #5F002B;
     font-family: montaukRegular;
-    font-size: 14px;
+    font-size: 12px;
     
 }
 .height100{
@@ -135,7 +135,7 @@ body, .navbar {
 
 #colorNav{
     color:rgba(95, 0, 43, 1);
-    font-family: BoldMon;
+    font-family: montaukBold;
     font-size: 24px;
 }
 .title{
@@ -160,7 +160,8 @@ body, .navbar {
 
 }
 .colImage{
-    margin-bottom: 10px;
+ margin: 0px;
+ padding-right: 10px;
     
 }
 /*===============================================================================================================================================*/
