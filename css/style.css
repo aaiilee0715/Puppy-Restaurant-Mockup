@@ -39,6 +39,9 @@
 
 body, .navbar {
     background-image: url('../image/bgtexture.jpg');
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
 }
 
 .navText {
@@ -52,6 +55,11 @@ body, .navbar {
 
 .containerFlex{
     display: flex;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
 .img {
@@ -72,6 +80,7 @@ body, .navbar {
     
 }
 .height100{
+    
     height: 100%;
     /* width: 100%; */
     object-fit: cover;
@@ -79,6 +88,7 @@ body, .navbar {
 
 .story {
     background-color: white;
+   
 }
 
 /*Our Team*/
@@ -91,13 +101,13 @@ body, .navbar {
 
 /*Footer*/
 
-/* .footer {
+.footer {
     width: 100vw;
     display: block;
     overflow: hidden;
-    padding-left: 5%;
+    padding-left: 12%;
     
-} */
+}
 
 .footerText, .logoText {
     font-family: montaukRegular;
@@ -109,6 +119,7 @@ body, .navbar {
     width: 35%;
     display: block;
     height: auto;
+    padding-right: 15%;
 }
 
 .logo-container img{
