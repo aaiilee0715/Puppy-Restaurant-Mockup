@@ -39,9 +39,6 @@
 
 body, .navbar {
     background-image: url('../image/bgtexture.jpg');
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
 }
 
 .navText {
@@ -56,27 +53,41 @@ body, .navbar {
 .containerFlex{
     display: flex;
 }
-.container {
+/* .container {
     width: 100%;
     margin: auto;
     overflow: hidden;
-}
+} */
 
 .img {
     max-width: 100%;
 }
 
-.grillStory, .ourTeam, .card-title {
+.grillStory, .ourTeam{
     color: #5F002B;
     font-weight: bold;
     font-family: fugazOne;
+    font-size: 30px;
    
+}
+.card-title {
+    color: #5F002B;
+    font-weight: bold;
+    font-family: fugazOne;
+}
+
+.titleAbout{
+    color: #5F002B;
+    font-weight: bold;
+    font-family: fugazOne;
+    font-size: large;
+    margin-bottom: -2px;
 }
 
 .grillStoryText, .card-text {
     color: #5F002B;
     font-family: montaukRegular;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 .height100{
@@ -88,6 +99,7 @@ body, .navbar {
 
 .story {
     background-color: white;
+    font-size: 40px;
    
 }
 
@@ -101,26 +113,26 @@ body, .navbar {
 
 /*Footer*/
 
-.footer {
+/* .footer {
     width: 100vw;
     display: block;
     overflow: hidden;
-    padding-left: 12%;
+    padding-left: 1%;
     
-}
+} */
 
 .footerText, .logoText {
     font-family: montaukRegular;
     color: #5F002B;
     font-size: 20px;
 }
-
+/* 
 .logo-container {
     width: 35%;
     display: block;
     height: auto;
-    padding-right: 15%;
-}
+    padding-right: 12%;
+} */
 
 .logo-container img{
     width: 150px;
@@ -130,6 +142,7 @@ body, .navbar {
 
 .cateringService {
     background-color: white;  
+    font-size: 40px;
 }
 
 
@@ -137,11 +150,11 @@ body, .navbar {
 
 #colorNav{
     color:rgba(95, 0, 43, 1);
-    font-family: BoldMon;
+    font-family: fugazOne;
     font-size: 24px;
 }
 .title{
-    font-family: BoldMon;
+    font-family: fugazOne;
     color:rgba(95, 0, 43, 1);
     background-color: rgba(255, 255, 255, 1);
     margin-left: -10px;
@@ -162,12 +175,16 @@ body, .navbar {
 
 }
 .colImage{
-    margin-bottom: 10px;
+ margin: 0px;
+
     
 }
+
+
 /*===============================================================================================================================================*/
 .card{
     padding: 0;
+    
 
 
 }
@@ -187,7 +204,7 @@ body, .navbar {
 .smallText{
     font-family: RegularMon;
     color: rgba(95, 0, 43, 1);
-    font-size: small;
+    font-size: smaller;
 }
 
 hr{
@@ -278,4 +295,79 @@ hr{
 .footerPad{
     padding:0;
     margin: 0;
+}
+
+/* .card-body{
+    overflow:scroll;
+    height: 600px;
+    overflow: auto;
+} */
+
+
+/*============================================Demitri's CSS===================================================================================*/
+.heroImage{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+.homeImg{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    padding-top: 12%;
+}
+.marginTop{
+    margin-top: 5%;
+    padding-left: 8%;
+}
+.single{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+.rectangle{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cLogo{
+    width: 100px;
+    height: 32px;
+}
+.paddingR{
+    padding-right: 8.25%;
+}
+.paddingR2{
+    padding-right: 8.50%;
+}
+.paddingL{
+    padding-left: 12.5%;
+}
+.paddingL2{
+    padding-left: 9.25%;
+}
+.paddingTop{
+    padding-top: 5%;
+}
+.font1{
+    font-family: Mont;
+    font-size: 18px;
+}
+
+.font2{
+    font-family: Mont;
+    color:#5F002B;
+}
+
+.regularFont{
+    font-family: Regular;
+    font-size: 19px;
+    color:#5F002B;
+}
+@font-face{
+    src: url(/font/FugazOne-Regular.ttf);
+    font-family: Mont;
 }
