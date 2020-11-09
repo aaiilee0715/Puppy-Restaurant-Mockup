@@ -200,7 +200,7 @@ body, .navbar {
 }
 
 .largeText{
-    font-family: RegularMon;
+    font-family: Mont;
     color: rgba(95, 0, 43, 1);
 }
 
@@ -269,7 +269,7 @@ hr{
 }
 
 .largeText{
-    font-family: RegularMon;
+    font-family: MontaukRegular;
     color: rgba(95, 0, 43, 1);
 
 }
