@@ -160,9 +160,12 @@ body, .navbar {
     font-family: fugazOne;
     color:rgba(95, 0, 43, 1);
     background-color: rgba(255, 255, 255, 1);
-    margin-left: -10px;
-    margin-right: -10px;
+    
 
+}
+.noPad{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #footerStyle{
@@ -300,11 +303,11 @@ hr{
     margin: 0;
 }
 
-/* .card-body{
+ .card-body2{
     overflow:scroll;
     height: 600px;
     overflow: auto;
-} */
+}
 
 
 /*============================================Demitri's CSS===================================================================================*/
